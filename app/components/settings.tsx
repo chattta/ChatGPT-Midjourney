@@ -365,19 +365,11 @@ export function Settings() {
                 : Locale.Settings.Update.IsLatest
             }
           >
-            {checkingUpdate ? (
-              <LoadingIcon />
-            ) : hasNewVersion ? (
-              <Link href="https://www.openai.mo.cn" target="_blank" className="link">
+         
+               <Link href="https://www.openai.mo.cn" target="_blank" className="link">
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
-            ) : (
-              <IconButton
-                icon={<ResetIcon></ResetIcon>}
-                text={Locale.Settings.Update.CheckUpdate}
-                onClick={() => checkUpdate(true)}
-              />
-            )}
+             
           </ListItem>
 
           <ListItem title={Locale.Settings.SendKey}>
