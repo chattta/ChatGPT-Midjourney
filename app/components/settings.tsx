@@ -368,7 +368,7 @@ export function Settings() {
             {checkingUpdate ? (
               <LoadingIcon />
             ) : hasNewVersion ? (
-              <Link href={<a href= "http://www.openai.mo.cn"></a>} target="_blank" className="link">
+              <Link href={<a href="https://www.openai.mo.cn"></a>} target="_blank" className="link">
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
             ) : (
