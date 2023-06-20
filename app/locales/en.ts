@@ -1,5 +1,6 @@
 import { SubmitKey } from "../store/config";
 import { RequiredLocaleType } from "./index";
+import Gzh from "../../public/AICG.jpg";
 
 const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
@@ -12,6 +13,7 @@ const en: RequiredLocaleType = {
     Tips: "Please enter access code below",
     Input: "access code",
     Confirm: "Confirm",
+        Image: Gzh,
     Later: "Later",
   },
   Midjourney: {
